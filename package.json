@@ -1,0 +1,21 @@
+{
+  "name": "babel-preset-medopad-react",
+  "version": "0.0.0",
+  "description": "Medopad's Babel preset for React.",
+  "keywords": [
+    "babel",
+    "babelpreset",
+    "medopad",
+    "react"
+  ],
+  "license": "MIT",
+  "author": "Julius Osokinas <julius.osokinas@medopad.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medopad/babel-preset-medopad-react.git"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.0.0"
+  }
+}
