@@ -18,3 +18,4 @@ node_js:
 
 before_script:
   - npm install babel-preset-medopad --no-save
+  - curl -o ./node_modules/eslint-plugin-react/lib/rules/jsx-curly-spacing.js "https://raw.githubusercontent.com/jseminck/eslint-plugin-react/75fb917c1ce27540f48cbe3fa7436a6822d4b953/lib/rules/jsx-curly-spacing.js"
