@@ -6,7 +6,8 @@
     "babel",
     "babelpreset",
     "medopad",
-    "react"
+    "react",
+    "jsx"
   ],
   "license": "MIT",
   "author": "Julius Osokinas <julius.osokinas@medopad.com>",
