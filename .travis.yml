@@ -19,3 +19,12 @@ node_js:
 before_script:
   - npm install babel-preset-medopad --no-save
   - curl -o ./node_modules/eslint-plugin-react/lib/rules/jsx-curly-spacing.js "https://raw.githubusercontent.com/jseminck/eslint-plugin-react/75fb917c1ce27540f48cbe3fa7436a6822d4b953/lib/rules/jsx-curly-spacing.js"
+
+deploy:
+  provider: npm
+  email: j.osokinas@gmail.com
+  api_key:
+    secure: fWsQcWtVraI5FW3ghk4Zw6s0IOd3ZMetMFpins7FmRFYWaLnbIynmY5sgQVpdhTSeJPK2tnKWyYJfCvYEJ0N2mRf5PW0FgwsA6UQqIBskU5+y7hWsReaKalBpPMzv9Y0p5keqACMPwtUwMG0guWq1n6IBXYlbK9aORQJPnYGLw2fwOAPXNMaZIonPQ8xSFx3cxJNtG5gwDy8L6Wi5FOPmZ3uI4UVXxZwfmhEJ0irWY+a3vHQ6+GlpP9pC3IsLYL847cLbH9u3A7y7T2m43auKenwXvtopRXqMPHQzItEmeIIkPOG3tpm7uoG6e0dIuihO4Ssu04C6FRgmT7fRA+y+LWXwtfe9CCk78Epia4CshPQR71pmVW055a9VggUxjp7b6LatdYPF7ik64Ts0NztkrlrVLo1Gj+ORQSQ7P+UD2BIcDkMOuDe+yh4AZ24WD+FkAyR74Y+UVgClEwUhThr5suZu6G+QTxrITP/UwkoydtWISZtcEDxP+M5XL/vCwje5d6ZNsK12+u4PIlD4MmpL0iKjFBjnVJJgfaGlLv/UwA1LKfyQ7AsJ18s4waamNKUTFGHFXCR4dX4lRl7fKlV+oiM484seCn83P8cKFdp/cwz5NhCSr1DctVuH0mp1kImvcF/BSIdwuhbW8/PykoDyfAOKimoJ3i/3XQRYgtime4=
+  on:
+    tags: true
+    branch: master
